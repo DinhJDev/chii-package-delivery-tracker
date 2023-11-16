@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Chii Package Delivery Tracker",
+  "version": "1.0",
+
+  "description": "Tracks your packages.",
+
+  "icons": {
+
+  },
+
+  "content_scripts": [
+    {
+      "matches": [ "*://*.mozilla.org/*" ],
+      "js": [ "package-delivery-tracker.js" ]
+    }
+  ]
+}
