@@ -12,7 +12,10 @@
   "content_scripts": [
     {
       "matches": [ "*://*.mozilla.org/*" ],
-      "js": [ "package-delivery-tracker.js" ]
+      "js": [
+        "browser-polyfill.js",
+        "package-delivery-tracker.js"
+      ]
     }
   ]
 }

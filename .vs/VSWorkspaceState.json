@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\content_scripts",
+    "\\icons",
+    "\\popup"
   ],
-  "SelectedNode": "\\D:\\Home\\[01] Jason\\[06] Software Development\\[01] Projects\\chii-package-delivery-tracker",
+  "SelectedNode": "\\popup",
   "PreviewInSolutionExplorer": false
 }
